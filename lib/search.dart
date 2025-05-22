@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:smartcond/menu.dart';
 
 class Search extends StatefulWidget {
   const Search({super.key});
@@ -10,6 +11,6 @@ class Search extends StatefulWidget {
 class _InitialPageSearch extends State<Search> {
   @override
   Widget build(BuildContext) {
-    return Scaffold(appBar: AppBar(title: Text('Consulta')));
+    return Menu(body: Text('tela inicial de consulta'));
   }
 }

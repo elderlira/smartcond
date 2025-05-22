@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:smartcond/menu.dart';
 
 class Financial extends StatefulWidget {
   const Financial({super.key});
@@ -10,6 +11,6 @@ class Financial extends StatefulWidget {
 class _InitialPageFinancial extends State<Financial> {
   @override
   Widget build(BuildContext) {
-    return Scaffold(appBar: AppBar(title: Text('Financeiro')));
+    return Menu(body: Text('Tela inicial financeiro'));
   }
 }
